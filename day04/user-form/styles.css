@@ -1,0 +1,99 @@
+/* 박스 모델 */
+header {
+  padding: 20px;
+  border-bottom: 2px solid #333;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.project {
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+aside {
+  padding: 10px;
+  border-left: 3px solid #007bff;
+  margin: 20px;
+}
+
+/* display 속성 */
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+footer p:first-of-type {
+  display: none;
+}
+
+/* position 속성 */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+aside {
+  position: relative;
+}
+
+aside h3 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* flexbox */
+nav ul {
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* grid */
+#projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* 기타 스타일 */
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+h1 {
+  font-size: 2em;
+  margin-left: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+  padding-left: 0.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+footer p {
+  margin: 5px 0;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration Form</title>
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form action="#" method="POST">
+        <div>
+            <label for="name">이름</label>
+            <input type="text" id="이름" name="name" required>
+        </div>
+        <div>
+            <label for="email">이메일 주소</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">비밀번호</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <label for="dob">생년월일</label>
+            <input type="date" required>
+        </div>
+        <div>
+            <label for="age">나이</label>
+            <input type="number" id="age" name="age" min="18" max="100" required>
+        </div>
+        <div>
+            <label for="satisfaction">서비스 만족도 (1~10)</label>
+            <input type="range" id="satisfaction" name="satisfaction" min="1" max="10">
+        </div>
+        <div>
+            <label>성별</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+        <div>
+            <label>관심사</label><br>
+            <input type="checkbox" id="Coding" name="interests" value="Coding">
+            <label for="coding">Coding</label><br>
+
+            <input type="checkbox" id="Gaming" name="interests" value="Gaming">
+            <label for="gaming">Gaming</label><br>
+
+            <input type="checkbox" id="Coding" name="Gaming" value="Reading">
+            <label for="reading">Reading</label>
+        </div>
+        <div>
+            <label for="country">국가 선택</label>
+            <select id="country" name="country" required>
+                <option value="kr">South Korea</option>
+                <option value="us">USA</option>
+                <option value="jp">Japan</option>
+                <option value="cn">China</option>
+                <option value="uk">UK</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">제출</button>
+            <button type="reset">초기화</button>
+        </div>
+
+    </form>
+</body>
+</html>

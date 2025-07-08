@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>User Registration Form</title>
+    </head>
+    <body>
+        <p>
+        <h1>User Registration</h1>
+        <a href="#">
+            <li><span style=color:blue;>Home</span></li></a>
+        <a href="#">
+            <li><span style=color:blue;>Register</span></li></a>
+        <a href="#"><li><span style=color:blue;>About</span></li> </a>
+        </p>
+            <h3>Registraton Forms</h3>
+<form action="#" method="POST"></form>
+<input type="text" name="id" placeholder="사용자 이름">
+<input type="password" name="password" placeholder="비밀 번호">
+<h3>성별을 선택해주세요</h3>
+<form action="/submit" method="POST"></form>
+<label>
+    <input type="radio" name="gender" value="Male">
+남성
+</label>
+<label>
+    <input type="radio" name="gender" value="Female">
+여성
+</label>
+<br>
+<h3>취미를 선택해주세요</h3>
+<label><input type="checkbox" name="Reading" value="Reading">
+독서
+</label>
+<label><input type="checkbox" name="Gaming" value="Gaming">
+게임
+</label>
+<label><input type="checkbox" name="Coding" value="Coding">
+코딩
+</label>
+<br>
+<h3>국가를 선택해주세요</h3>
+<form action="/submit" method="POST"></form>
+<select id="country" name="country">
+<option value="korea">대한민국</option>
+<option value="USA">미국</option>
+<option value="JAPAN">일본</option>
+<option value="CHINA">중국</option>
+<option value="UK">영국</option>
+</select>
+<h3>기타정보</h3>
+<p>
+    <label>email
+    <input type="text" name="email" placeholder="example@domaion.com">
+    </label></p>
+    <p><label>생일
+<input type="date" name="birth"> 
+</label></p>
+<p><label>나이
+    <input style="text" name="age" placeholder="18">
+</label></p>
+<p>
+    <label>만족도
+    <input type="range" name="satisfaction">
+</label></p>
+<p>
+<button type="submit">제출</button>
+<button type="reset">초기화</button>
+</p>    
+</body>
+</html>
