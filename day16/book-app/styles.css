@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+.book-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+.book-item {
+  margin: 5px 0;
+}
+
+.book-item span {
+  margin-right: 10px;
+}
+
+#results {
+  margin-top: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
